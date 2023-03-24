@@ -94,7 +94,7 @@ class User(db.Model):
             self.id,
             self.username,
             self.password,
-            self.email,
+#             self.email,
             self.created,
         )
 
