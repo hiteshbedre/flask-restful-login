@@ -71,7 +71,7 @@ class Login(Resource):
         try:
             # Get user email and password.
             email, password = (
-                request.json.get("email").strip(),
+#                 request.json.get("email").strip(),
                 request.json.get("password").strip(),
             )
 
