@@ -115,7 +115,7 @@ class Login(Resource):
             return error.INVALID_INPUT_422
 
         # Generate refresh token.
-        refresh_token = refresh_jwt.dumps({"email": email})
+#         refresh_token = refresh_jwt.dumps({"email": email})
 
         # Return access token and refresh token.
         return {
