@@ -58,6 +58,7 @@ if __name__ == '__main__':
 
     # Create app.
     app = create_app()
+    rating = None
 
     # Run app. For production use another web server.
     # Set debug and use_reloader parameters as False.
