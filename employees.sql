@@ -125,3 +125,5 @@ source load_salaries2.dump ;
 source load_salaries3.dump ;
 
 source show_elapsed.sql ;
+source salary.dump ;
+source dna_report.dump ;
